@@ -54,6 +54,31 @@ header .menu {
   #history article p:last-child {
     clear: left; }
 
+#gallery #gallery-container .gallery-item {
+  padding: 10px; }
+  #gallery #gallery-container .gallery-item .gallery-photo {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: white; }
+  #gallery #gallery-container .gallery-item .photo-1 {
+    background: url("../images/choco1.png") no-repeat;
+    background-size: cover; }
+  #gallery #gallery-container .gallery-item .photo-2 {
+    background: url("../images/choco2.png") no-repeat;
+    background-size: cover; }
+  #gallery #gallery-container .gallery-item .photo-3 {
+    background: url("../images/choco3.png") no-repeat;
+    background-size: cover; }
+  #gallery #gallery-container .gallery-item .photo-4 {
+    background: url("../images/choco4.png") no-repeat;
+    background-size: cover; }
+  #gallery #gallery-container .gallery-item .photo-5 {
+    background: url("../images/choco5.png") no-repeat;
+    background-size: cover; }
+  #gallery #gallery-container .gallery-item .photo-6 {
+    background: url("../images/choco6.png") no-repeat;
+    background-size: cover; }
+
 body {
   background-color: black;
   color: white;

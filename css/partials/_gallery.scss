@@ -1,0 +1,18 @@
+#gallery{
+    #gallery-container{
+        .gallery-item{
+            padding: 10px;
+            .gallery-photo{
+                width: 100%;
+                padding-bottom: 100%;
+                background-color: white;
+            }
+            @for $i from 1 through 6{
+                .photo-#{$i} {
+                    background: url("../images/choco#{$i}.png") no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
