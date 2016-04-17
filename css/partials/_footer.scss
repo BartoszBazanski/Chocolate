@@ -1,0 +1,10 @@
+footer{
+    background-color: white;
+    color: $footer-color;
+    hr{
+        border-color: $footer-color;
+    }
+    p {
+        text-align: center;
+    }
+}

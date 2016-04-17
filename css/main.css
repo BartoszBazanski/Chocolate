@@ -79,16 +79,58 @@ header .menu {
     background: url("../images/choco6.png") no-repeat;
     background-size: cover; }
 
+#best-food {
+  background-color: white;
+  color: black; }
+  #best-food .container {
+    position: relative; }
+    #best-food .container p {
+      padding: 20px 0;
+      margin-right: 100px; }
+    #best-food .container img {
+      width: 100px;
+      margin: 10px;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+  #best-food .mid-image {
+    height: 400px;
+    background: url("../images/bgrasp.png") center no-repeat;
+    background-size: cover; }
+
+#yummy .photo img {
+  width: 100%; }
+#yummy .text {
+  padding: 0 50px 0 100px; }
+
+#contact {
+  background-color: white;
+  color: #a2a2a2; }
+  #contact address {
+    font-size: 1.5em; }
+    #contact address .legend {
+      text-transform: uppercase;
+      padding-right: 20px; }
+
+footer {
+  background-color: white;
+  color: #a2a2a2; }
+  footer hr {
+    border-color: #a2a2a2; }
+  footer p {
+    text-align: center; }
+
 body {
   background-color: black;
   color: white;
-  font-size: 14px; }
+  font-size: 14px;
+  text-align: justify; }
 
 h2 {
   font-weight: bold;
   font-size: 1.8em; }
 
-section {
+section:not(#yummy) {
   padding: 50px 0; }
 
 /*# sourceMappingURL=main.css.map */

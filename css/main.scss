@@ -4,16 +4,20 @@
 @import "partials/history";
 @import "partials/gallery";
 @import "partials/food";
+@import "partials/yummy";
+@import "partials/contact";
+@import "partials/footer";
 
 body {
     background-color: black;
     color: white;
     font-size: 14px;
+    text-align: justify;
 }
 h2 {
     font-weight: bold;
     font-size: 1.8em;
 }
-section{
+section:not(#yummy){
     padding: 50px 0;
 }

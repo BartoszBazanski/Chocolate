@@ -1,0 +1,11 @@
+#contact{
+    background-color: white;
+    color: $footer-color;
+    address{
+        font-size: 1.5em;
+        .legend{
+            text-transform: uppercase;
+            padding-right: 20px;
+        }
+    }
+}
