@@ -1,0 +1,19 @@
+#start{
+    background-color: $main-color;
+    .container{
+        position: relative;
+        .coffee-background, .start-text{
+            padding: 50px 0;
+        }
+        .coffee-background{
+            position: absolute;
+            overflow: hidden;
+            top: -50px;
+            right: 0;
+            height: calc(100% + 100px);
+            background: url("../images/coffee.png") no-repeat;
+            background-size: cover;
+        }
+    }
+
+}

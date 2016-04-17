@@ -4,7 +4,7 @@ header h1 {
 header .contact-cloud {
   position: absolute;
   top: 0;
-  left: 40%;
+  left: 35%;
   width: 350px;
   padding: 10px 115px 10px 30px;
   color: black;
@@ -21,18 +21,49 @@ header .contact-cloud {
     padding-left: 20px;
     text-align: center;
     font-size: 1.2em; }
-header ul {
-  width: 35%;
-  float: right; }
-  header ul li {
+header .menu {
+  padding: 0 0 0 0; }
+  header .menu li {
+    text-align: center;
     text-transform: uppercase;
     float: left;
     padding: 20px;
     width: 20%; }
 
+#start {
+  background-color: #45add8; }
+  #start .container {
+    position: relative; }
+    #start .container .coffee-background, #start .container .start-text {
+      padding: 50px 0; }
+    #start .container .coffee-background {
+      position: absolute;
+      overflow: hidden;
+      top: -50px;
+      right: 0;
+      height: calc(100% + 100px);
+      background: url("../images/coffee.png") no-repeat;
+      background-size: cover; }
+
+#history {
+  background-color: white;
+  color: black; }
+  #history article img {
+    float: left;
+    margin: 0 20px 20px 0; }
+  #history article p:last-child {
+    clear: left; }
+
 body {
   background-color: black;
   color: white;
   font-size: 14px; }
+
+h2 {
+  font-weight: bold;
+  font-size: 1.8em; }
+
+section {
+  padding: 50px 0; }
 
 /*# sourceMappingURL=main.css.map */
